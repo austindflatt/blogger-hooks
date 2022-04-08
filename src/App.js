@@ -36,7 +36,7 @@ function App() {
     })
     }
     <Pagination
-      count={(blogs.length / 16).toFixed(0)}
+      count={(blogs.length / 5).toFixed(0)}
       onChange={(_, value) => {
         setPage(value)
       window.scroll(0, 450);
